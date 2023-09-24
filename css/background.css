@@ -1,0 +1,12 @@
+.gl__background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    opacity: 0.2;
+    background-image: url(../images/backgroung-main.png);
+    background-size: 100%;
+    background-position: center;
+}
