@@ -20,6 +20,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    transition: 0.3s;
 }
 .gl__a__img {
     height: 100%;
@@ -27,4 +29,16 @@
 }
 .gl__a__img:hover {
     scale: 110%;
+}
+.gl__header-span {
+    height: 2px;
+    width: 0;
+    background-color: #151515;
+    transition: 0.3s;
+}
+.gl__header__a:hover {
+    letter-spacing: 0.1vw;
+}
+.gl__header__a:hover .gl__header-span {
+    width: 100%;
 }

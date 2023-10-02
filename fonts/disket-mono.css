@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Disket-Mono';
+	src: url('Disket-Mono-Regular.ttf');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Disket-Mono';
+	src: url('Disket-Mono-Bold.ttf');
+	font-weight: 200;
+	font-style: normal;
+}
+h2, .a-footer {
+	font-family: 'Disket-Mono';
+	font-weight: 100;
+	font-size: 2vw;
+}

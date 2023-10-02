@@ -1,0 +1,22 @@
+.gl__action-button {
+    display: flex;
+    background-color: #222221;
+    border-radius: 0.5vw;
+    width: fit-content;
+    padding: 0.3vw 0.5vw;
+    transition: 0.3s;
+}
+.gl__action-text {
+    font-size: 1.2vw;
+    color: white;
+    padding: 0.3vw 1.5vw;
+    font-weight: 300;
+    transition: 0.3s;
+    border-radius: 0.5vw;
+}
+.gl__action-text:hover, .gl__action-button:hover {
+    color: rgb(209, 209, 209);
+}
+.gl__second-action-but {
+    background-color: #6C5599;
+}

@@ -5,54 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Академия Олимпиад</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fonts/raleway/raleway.css">
+    <link rel="stylesheet" href="fonts/disket-mono.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/section-info.css">
+    <link rel="stylesheet" href="css/action-button.css">
+    <link rel="stylesheet" href="css/olympiads-list.css">
 </head>
 <body>
     <header class="gl__header">
-        <a href="#" class="gl__header__a">Главная</a>
-        <a href="#" class="gl__header__a">Олимпиады</a>
+        <a href="#" class="gl__header__a">
+            Главная
+            <span class="gl__header-span"></span>
+        </a>
+        <a href="#" class="gl__header__a">
+            Олимпиады
+            <span class="gl__header-span"></span>
+        </a>
         <a href="#" class="gl__header__a">
             <img src="images/logo-b.svg" alt="" class="gl__a__img">
         </a>
-        <a href="#" class="gl__header__a">Результаты</a>
-        <a href="#" class="gl__header__a">Контакты</a>
+        <a href="#" class="gl__header__a">
+            Результаты
+            <span class="gl__header-span"></span>
+        </a>
+        <a href="#" class="gl__header__a">
+            Контакты
+            <span class="gl__header-span"></span>
+        </a>
     </header>
     <div class="gl__background"></div>
     <main class="section__container">
         <section class="title__section">
             <div class="title__info-container">
                 <div class="gl__section-info">
-                    <img src="" alt="" class="gl__section-info">
+                    <img src="images/section-svg.svg" alt="" class="gl__section-info">
                     <p class="gl__section-name">Главная/</p>
                 </div>
                 <h1 class="title__h1">Олимпиады для всех</h1>
                 <p class="title__description">Принимайте участие в бесплатных олимпиадах, которые подойдут для проверки ваших способностей, сохраняйте ваш результат и оплачивайте диплом!</p>
                 <div class="gl__action-button">
-                    <a href="" class="gl__first-action-but">Список олимпиад</a>
-                    <a href="" class="gl__second-action-but">Перейти</a>
+                    <a href="" class="gl__first-action-but gl__action-text">Список олимпиад</a>
+                    <a href="" class="gl__second-action-but gl__action-text">Перейти</a>
                 </div>
             </div>
-            <div class="title__info-container">
-                <div class="title__platform-card">
-                    <img src="" alt="" class="platform__card-img">
+            <div class="title__info-container wrap__info">
+                <div class="title__platform-card dash__b-r-b">
+                    <img src="images/title-user.svg" alt="" class="platform__card-img">
                     <h1 class="platform__card-h1">Для всех</h1>
                     <p class="platform__card-description">желающих проверить свои знания и получить диплом о пройденной олимпиаде</p>
                 </div>
-                <div class="title__platform-card">
-                    <img src="" alt="" class="platform__card-img">
+                <div class="title__platform-card dash__b-l-b">
+                    <img src="images/title-fire.svg" alt="" class="platform__card-img">
                     <h1 class="platform__card-h1">Бесплатно</h1>
                     <p class="platform__card-description">Участие в олимпиадах бесплатное, результат сохраняется на сайте навсегда в разделе результаты.</p>
                 </div>
-                <div class="title__platform-card">
-                    <img src="" alt="" class="platform__card-img">
+                <div class="title__platform-card dash__b-r-t">
+                    <img src="images/title-list.svg" alt="" class="platform__card-img">
                     <h1 class="platform__card-h1">Диплом</h1>
                     <p class="platform__card-description">По желанию участник может заказать за ?? рублей диплом, подтверждающий участие в олимпиаде.</p>
                 </div>
-                <div class="title__platform-card">
-                    <img src="" alt="" class="platform__card-img">
+                <div class="title__platform-card dash__b-l-t">
+                    <img src="images/title-sec.svg" alt="" class="platform__card-img">
                     <h1 class="platform__card-h1">Без регистрации</h1>
                     <p class="platform__card-description">Интерфейс сайта интуитивно понятный и не требует регистрации для прохождения олимпиады.</p>
                 </div>
@@ -61,21 +78,96 @@
         <section class="olympiads-list">
             <div class="search__olympiads-container">
                 <div class="gl__section-info">
-                    <img src="" alt="" class="gl__section-info">
-                    <p class="gl__section-name">Главная/</p>
+                    <img src="images/ol-list.svg" alt="" class="gl__section-info">
+                    <p class="gl__section-name">Список олимпиад/</p>
                 </div>
                 <div class="search__container">
                     <input type="text" class="search-input">
-                    <img src="" alt="" class="search__img">
+                    <img src="images/search.svg" alt="" class="search__img">
                 </div>
             </div>
             <nav class="nav__olympiads-category">
-                <button class="nav__category-but" id="category-but">Все</button>
+                <button class="nav__category-but active__but" id="category-but">Все</button>
                 <button class="nav__category-but" id="category-but">Школьникам</button>
                 <button class="nav__category-but" id="category-but">Студентам</button>
                 <button class="nav__category-but" id="category-but">Педагогам</button>
             </nav>
             <div class="olympiads__list-container">
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
+                <form class="olympiads__card">
+                    <h1 class="card__name-category">Педагогам</h1>
+                    <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
+                    <button class="card__start-olympiad">Принять участие</button>
+                </form>
                 <form class="olympiads__card">
                     <h1 class="card__name-category">Педагогам</h1>
                     <p class="card__name-olympiad">Профессиональный стандарт "Педагог (воспитатель, учитель)" (от 18 октября 2013 г.)</p>
@@ -87,42 +179,42 @@
 
     <footer class="gl__footer">
         <div class="gl__footer-title-container">
-            <h1 class="gl__e-mail-h1">support@ao.ru</h1>
-            <img src="" alt="" class="gl__logo">
+            <h2 class="gl__e-mail-h2">support@ao.ru</h2>
+            <img src="images/logo-w.svg" alt="" class="gl__footer-logo">
         </div>
         <div class="gl__press-container">
             <div class="gl__press-info-container">
                 <div class="gl__press">
-                    <h1 class="gl__press-contact">Контакты</h1>
-                    <div class="gl__press-info-container">
-                        <h1 class="gl__category-name">телефон</h1>
-                        <p class="gl__description-name">+7-999-999-99-99</p>
+                    <h2 class="gl__press-contact">Контакты</h2>
+                    <div class="gl__press-info-container-text">
+                        <h2 class="gl__category-name">телефон</h2>
+                        <h2 class="gl__description-name">+7-999-999-99-99</h2>
                     </div>
-                    <div class="gl__press-info-container">
-                        <h1 class="gl__category-name">Адрес</h1>
-                        <p class="gl__description-name">Область, город, адрес.ном, этаж-?, офис</p>
+                    <div class="gl__press-info-container-text">
+                        <h2 class="gl__category-name">Адрес</h2>
+                        <h2 class="gl__description-name">Область, город, адрес.ном, этаж-?, офис</h2>
                     </div>
                 </div>
                 <div class="gl__press">
-                    <h1 class="gl__press-contact">Контакты</h1>
-                    <div class="gl__press-info-container">
-                        <h1 class="gl__category-name">телефон</h1>
-                        <p class="gl__description-name">+7-999-999-99-99</p>
+                    <h2 class="gl__press-contact">Редакция</h2>
+                    <div class="gl__press-info-container-text">
+                        <h2 class="gl__category-name">телефон</h2>
+                        <h2 class="gl__description-name">+7-999-999-99-99</h2>
                     </div>
-                    <div class="gl__press-info-container">
-                        <h1 class="gl__category-name">Адрес</h1>
-                        <p class="gl__description-name">Область, город, адрес.ном, этаж-?, офис</p>
+                    <div class="gl__press-info-container-text">
+                        <h2 class="gl__category-name">Адрес</h2>
+                        <h2 class="gl__description-name">Область, город, адрес.ном, этаж-?, офис</h2>
                     </div>
                 </div>
             </div>
             <div class="gl__social-container">
-                <a href="" class="gl__social-name">TELEGRAM</a>
-                <a href="" class="gl__social-name">VKONTAKTE</a>
+                <a href="" class="gl__social-name a-footer">TELEGRAM</a>
+                <a href="" class="gl__social-name a-footer">VKONTAKTE</a>
             </div>
         </div>
         <div class="gl__other-footer-info">
-            <h1 class="gl__footer-name">© Академия олимпиад</h1>
-            <a href="" class="gl__footer-documents">Документы</a>
+            <h2 class="gl__footer-name">© Академия олимпиад</h2>
+            <a href="" class="gl__footer-documents a-footer">Документы</a>
         </div>
     </footer>
 

@@ -1,0 +1,100 @@
+.olympiads-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.search__olympiads-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search__container {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+.search__img {
+    height: 100%;
+}
+.search-input {
+    padding-left: 1vw;
+    height: 50%;
+    width: 20vw;
+    border-radius: 1vw;
+    border: 2px solid #222221;
+    background: rgba(34, 34, 33, 0.10);
+}
+.nav__olympiads-category {
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+}
+.nav__category-but {
+    font-size: 1.2vw;
+}
+.active__but {
+    font-weight: 700;
+}
+.olympiads__list-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 2vh;
+    padding-right: 1vw;
+    overflow-y: auto;
+}
+.olympiads__list-container::-webkit-scrollbar {
+    width: 1vw;
+  }
+  .olympiads__list-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .olympiads__list-container::-webkit-scrollbar-thumb {
+    background-color: #6C5599;
+    border-radius: 0.5vw;
+  }
+.olympiads__card {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 1vw;
+    background: rgba(33, 33, 33, 0.06);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3.5px);
+
+    padding: 1vw;
+    transition: 0.3s;
+    margin-bottom: 3vh;
+}
+.card__name-category {
+    font-weight: 700;
+    width: 100%;
+    height: 10%;
+}
+.card__name-olympiad {
+    height: 75%;
+    width: 100%;
+    padding-top: 0.5vh;
+}
+.card__start-olympiad {
+    width: 100%;
+    height: 15%;
+
+    border-radius: 1vw;
+    background-color: #6C5599;
+    color: white;
+    transition: 0.3s;
+}
+.olympiads__card:hover {
+    border-radius: 0.5vw;
+}
+.card__start-olympiad:hover {
+    border-radius: 0.5vw;
+    color: #6C5599;
+    background-color: white;
+    font-weight: 700;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}

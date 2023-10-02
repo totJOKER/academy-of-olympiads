@@ -1,0 +1,9 @@
+.gl__section-info {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+.gl__section-name {
+    font-size: 1.5vw;
+    font-weight: 300;
+}

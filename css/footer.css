@@ -1,0 +1,81 @@
+.gl__footer {
+    margin-top: 3vh;
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    background-color: #222221;
+    background-image: url(../images/backgroung-main.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+.gl__footer-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+}
+.gl__e-mail-h2 {
+    font-size: 2vw;
+    color: white;
+}
+.gl__footer-logo {
+    height: 100%;
+}
+.gl__press-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.gl__press-info-container {
+    display: flex;
+    gap: 1vw;
+}
+.gl__press {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 30%;
+}
+.gl__press-contact {
+    color: white;
+    font-weight: 200;
+}
+.gl__press-info-container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+.gl__category-name {
+    color: white;
+}
+.gl__description-name {
+    color: rgb(196, 196, 196);
+    font-size: 1vw;
+}
+.gl__social-container {
+    display: flex;
+    gap: 2vw;
+}
+.gl__social-name {
+    color: white;
+    font-size: 1.5vw;
+}
+.gl__other-footer-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 2vh;
+    border-top: 2px solid white;
+}
+.gl__footer-name {
+    color: white;
+    font-weight: 200;
+}
+.gl__footer-documents {
+    color: white;
+}
